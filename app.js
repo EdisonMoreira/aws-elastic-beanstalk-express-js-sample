@@ -4,7 +4,7 @@ const port = 8080;
 
 app.get('/', (req, res) => res.send('Saudações de Aprender Sempre!'));
 
-app.get('/', (req, res) => res.send('Teste de Pipeline!'));
+app.get('/', (req, res) => res.send('Teste de Pipeline Aprovacao Manual!'));
 
 app.listen(port);
 console.log(`App rodando e testando em http://localhost:${port}`);
